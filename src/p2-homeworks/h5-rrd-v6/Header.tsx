@@ -9,7 +9,7 @@ function Header() {
             <div className={s.links}>
                 <NavLink  to={PATH.PRE_JUNIOR} className={el => el.isActive ?  s.active : s.link} >pre-junior</NavLink>
                 <NavLink  to={PATH.JUNIOR} className={el => el.isActive ?  s.active : s.link}>junior</NavLink>
-                <NavLink  to={PATH.PRE_JUNIOR} className={el => el.isActive ?  s.active : s.link}>junior+</NavLink>
+                <NavLink  to={PATH.JUNIOR_PLUS} className={el => el.isActive ?  s.active : s.link}>junior+</NavLink>
             </div>
             <button className={s.button}> click </button>
         </div>
