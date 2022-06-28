@@ -1,0 +1,82 @@
+.wrapper{
+    margin-top: 10px;
+}
+
+.inputWrapper{
+    display: inline-block;
+}
+
+.input{
+    outline: none;
+    margin: 0 13px 8px 0;
+    background-color: #2abb5fe0;
+    border-radius: 9px;
+    box-shadow: rgb(179 255 208 / 20%) 0 -25px 18px -14px inset,
+    rgb(237 237 237 / 15%) 0 1px 2px,
+    rgb(255 255 255 / 15%) 0 2px 4px,
+    rgb(0 0 0 / 15%) 0 4px 8px,
+    rgb(96 102 98 / 15%) 0 8px 16px,
+    rgb(125 255 175 / 15%) 0 16px 32px;
+    color: #0d420d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 3px 13px;
+    text-decoration: none;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: 2px solid #51eea3;
+}
+
+.error {
+    box-shadow: rgba(241, 158, 182, 0.45) 0 -25px 18px -14px inset,
+    rgb(237 237 237 / 15%) 0 1px 2px,
+    rgb(255 255 255 / 15%) 0 2px 4px,
+    rgb(0 0 0 / 15%) 0 4px 8px,
+    rgba(102, 96, 97, 0.15) 0 8px 16px,
+    rgba(255, 125, 164, 0.15) 0 16px 32px;
+    background-color: #d6385c;
+    color: #a2031d;
+    border: 2px solid #e00d3e;
+}
+
+.errorText{
+    color: red;
+    font-weight: bold;
+}
+
+/*.buttonClass{*/
+/*    background-color: blanchedalmond;*/
+/*    border-radius: 7px;*/
+/*    border: 2px solid #d9bb70;*/
+/*    margin-right:10px;*/
+/*    height: 38px;*/
+/*}*/
+
+.buttonClass{
+    margin: 0 13px 8px 0;
+    background-color: #c2fbd7;
+    border-radius: 9px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 3px 13px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.buttonClass:hover{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,
+    rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}

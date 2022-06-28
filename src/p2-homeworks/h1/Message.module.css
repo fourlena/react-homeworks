@@ -1,0 +1,39 @@
+.message {
+    display: flex;
+    background-color: rgba(109, 215, 38, 0.92);
+}
+
+.avatar{
+    display: flex;
+    align-items: flex-end;
+}
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.text{
+    margin: 10px 0;
+    background-color: rgb(23, 130, 40);
+    width: 180px;
+    border-radius: 10%;
+    padding: 0 16px;
+    margin-left: 19px;
+    position: relative;
+}
+.time{
+    text-align: end;
+}
+
+.text:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    margin-left: -20px;
+    border: 13px solid transparent;
+    border-top: 37px solid rgb(23, 130, 40);
+    transform: rotate(71deg);
+}
+
